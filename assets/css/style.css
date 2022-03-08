@@ -89,7 +89,7 @@ aside {
 
 /* Consolidated different benefits sections to one benefits class */
 
-.benefits {
+.benefits section {
     margin-bottom: 32px;
     color: #ffffff;
 }
