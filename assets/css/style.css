@@ -24,7 +24,9 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-header section {
+/* Nav referring to clickable links in header section */
+
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +34,11 @@ header section {
     font-size: 20px;
 }
 
-header section ul {
+header nav ul {
     list-style-type: none;
 }
 
-header section ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -87,75 +89,28 @@ aside {
     background-color: #2589bd;
 }
 
-/* Consolidated different benefits sections to one benefits class */
+/* Aside referring to sidebar on the right with benefits information */
 
-.benefits section {
+aside section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* #benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-} */
 
-/* #benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-} */
-
-/* #benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-} */
-
-/* #benefit-lead h3 {
+aside section h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-#benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-#benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-} */
-
-.benefits h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefits img {
+aside section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-/* #benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-#benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-#benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-} */
 
 /* Consolidated duplicated css in different sections of main content to one class */
 
-.content {
+main section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -164,69 +119,16 @@ aside {
     color: #ffffff;
 }
 
-/* #search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
 
-#online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-#social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-} */
-
-.content img {
+main section img {
     max-height: 200px;
 
 }
 
-/* #search-engine-optimization img {
-    max-height: 200px;
-}
-
-#online-reputation-management img {
-    max-height: 200px;
-}
-
-#social-media-marketing img {
-    max-height: 200px;
-} */
-
-.content h2 {
+main section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-/* #search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-#online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-#social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-} */
 
 footer {
     padding: 30px;
