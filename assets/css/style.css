@@ -69,6 +69,7 @@ p {
     margin-left: 25px;
 }
 
+/* Updated .content to main element */
 main {
     width: 75%;
     display: inline-block;
