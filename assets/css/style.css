@@ -87,22 +87,29 @@ aside {
     background-color: #2589bd;
 }
 
-#benefit-lead {
+/* Consolidated different benefits sections to one benefits class */
+
+.benefits {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-#benefit-brand {
+/* #benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
-}
+} */
 
-#benefit-cost {
+/* #benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
-}
+} */
 
-#benefit-lead h3 {
+/* #benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+} */
+
+/* #benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -115,9 +122,20 @@ aside {
 #benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
+} */
+
+.benefits h3 {
+    margin-bottom: 10px;
+    text-align: center;
 }
 
-#benefit-lead img {
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* #benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -133,9 +151,20 @@ aside {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+} */
+
+/* Consolidated duplicated css in different sections of main content to one class */
+
+.content {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
 }
 
-#search-engine-optimization {
+/* #search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -160,9 +189,14 @@ aside {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+} */
+
+.content img {
+    max-height: 200px;
+
 }
 
-#search-engine-optimization img {
+/* #search-engine-optimization img {
     max-height: 200px;
 }
 
@@ -172,9 +206,14 @@ aside {
 
 #social-media-marketing img {
     max-height: 200px;
+} */
+
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
-#search-engine-optimization h2 {
+/* #search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -187,7 +226,7 @@ aside {
 #social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
+} */
 
 footer {
     padding: 30px;
