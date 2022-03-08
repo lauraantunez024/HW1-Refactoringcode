@@ -8,6 +8,8 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Top banner */
+
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -36,23 +38,28 @@ header nav {
     font-size: 20px;
 }
 
-header nav ul {
-    list-style-type: none;
-}
 
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
+    list-style-type: none;
+
 }
+
+/* Links */
 
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Text */
+
 p {
     font-size: 16px;
 }
+
+/* Main image under header/ nav bar */
 
 figure {
     height: 800px;
@@ -73,12 +80,8 @@ figure {
     margin-left: 25px;
 }
 
-/* Updated .content to main element */
-main {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
+
+/* Sidebar on the right with benefits information */
 
 aside {
     margin-right: 20px;
@@ -91,18 +94,19 @@ aside {
     background-color: #2589bd;
 }
 
-/* Aside referring to sidebar on the right with benefits information */
-
 aside section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Sidebar headers */
 
 aside section h3 {
     margin-bottom: 10px;
     text-align: center;
 }
+
+/* Sidebar icons */
 
 aside section img {
     display: block;
@@ -110,7 +114,15 @@ aside section img {
     max-width: 150px;
 }
 
-/* Consolidated duplicated css in different sections of main content to one class */
+/* Main content */
+
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Individual sections */
 
 main section {
     margin-bottom: 20px;
@@ -121,16 +133,21 @@ main section {
     color: #ffffff;
 }
 
+/* Main section images */
 
 main section img {
     max-height: 200px;
 
 }
 
+/* Main section headers */
+
 main section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/* Website information */
 
 footer {
     padding: 30px;
