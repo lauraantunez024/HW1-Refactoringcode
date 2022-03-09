@@ -39,20 +39,6 @@ Rather than repeating the same styling for each section with the id, I used the 
 
 The last part was commenting the CSS to show exactly what each selector is referring to.
 
-## How to launch
-
-
-Use the terminal to navigate to where the file is saved. Once in the file enter: 
-
-``` 
-Python3 -m http.server
-
-or 
-
-Python -m http.server
-
-```
-A browser with a local host url should open with the website on the page. 
 
 ### Link to deployed application:
 
